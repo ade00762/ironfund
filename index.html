@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ironfund - Landing page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" href="https://icplspaco.com/wp-content/uploads/2019/05/cropped-favicon-32x32.png" sizes="32x32">  <style>
+    body {
+      overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+    .mx-auto:hover{
+      width: 1300px;
+      /* transition: all 1s ease-in-out; */
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+
+.chen:hover{
+  transition: all 1s ease-in-out;
+  color: #5CACEA;
+}
+
+.chen{
+  transition: all 1s ease-in-out;
+  font-weight: bold;
+}
+
+.footer-section {
+    background-color: #f7f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .footer-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer-section p,
+  .footer-section a {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+
+  .footer-section a {
+    text-decoration: none;
+  }
+
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-section .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  /* Ensuring all columns inside footer-section behave as blocks */
+  .footer-section .col-md-3 {
+    display: flex; /* Change to flex to make children flex items */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items at the start of the column */
+    align-items: flex-start; /* Align items at the start of the column */
+    margin-bottom: 20px;
+  }
+
+@media (max-width: 768px) {
+  .footer-section {
+    height: auto; /* Reset height for mobile */
+    padding-top: 30px; /* Adjust padding for mobile */
+    padding-bottom: 30px; /* Adjust padding for mobile */
+    min-height: 600px; /* Set a minimum height to ensure consistency */
+  }
+}
+
+    @media (max-width: 768px) {
+      .hr {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .card-body a {
+        margin-right: 0 !important;
+      }
+      .footer-section .footer-section .col-md-3 {
+        margin-bottom: 20px;
+      }
+      .footer-logo{
+        margin-left: -100px;
+      }
+      .down{
+        margin-bottom: 130px;
+        position: relative;
+      }
+    }
+
+    .nav-link.active {
+      color: #6c757d !important;
+    }
+  </style>
+</head>
+<body style="scroll-behavior: smooth;">
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status">
+      <div class="spinner-border text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  </div>
+   <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-white navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/images2/logo/Iron fund Logos.svg" width="230px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse  navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto text-t">
+          <li class="nav-item  ">
+            <a class="nav-link pe-4 chen d-block " href="#demo">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  pe-4 chen d-block" href="#about">About Us</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  pe-4 chen d-block" href="#mission">Our Mission</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link chen d-block" href="#promoters">The Promoters</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link chen d-block" href="https://docsend.com/view/s/rbbbn9ehw6svvem6" target="_blank">Data Room</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link chen d-block" href="https://ironcapital.africa/" target="_blank">About Iron Capital</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <section id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner text-t">
+      <div class="carousel-item active c-item">
+        <img src="images/slideshow2.png" alt="Chicago" class="d-block w-100 c-img">
+        <div class="carousel-caption top-0 my-5">
+          <h1 class="display-2 fw-bold ">On a mission to build Nigeria's most trusted and preferred investment bank</h1>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="images/slideshoe4.png" alt="New York" class="d-block w-100 c-img">
+        <div class="carousel-caption my-5">
+          <h1 class="display-2 fw-bold" style="margin-bottom: 150px;">Different, differently.</h1>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="images/Group 6.png" alt="Los Angeles" class="d-block w-100 c-img">
+        <div class="carousel-caption">
+          <h1 class="display-2 fw-bold" style="margin-bottom: 150px;">Integrity <br /> Reputation <br> Competence</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="container" style="margin-top: 130px; margin-bottom: 130px;">
+    <h1 class="text-center fw-bold text-t" >About Us</h1>
+    <hr class="mx-auto" style="width: 100px;"/>
+    <div class="col-md-8 container text-justify section-title">
+      <p>Iron Fund Management Limited is a premier investment management firm that provides professional fund management services to individuals, institutions, and corporations.</p>
+      <p>
+        We offer tailored investment solutions designed to maximize returns while managing risk across a range of asset classes, including equities, bonds, real estate, and money markets.</p>
+      <p>At Iron Fund, we partner with our clients to grow and preserve their wealth across various asset classes with consideration for future generations.</p>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section id="mission" class="container-fluid mt-5 " style="background-color: #ecf4fa; padding: 130px 0;">
+    <h1 class="container text-center fw-bold text-col text-t" >Mission</h1>
+    <hr class="mx-auto" style="width: 100px; color: black;" />
+    <p class="container text-center text-muted fs-5 text-f ">To build the most trusted and preferred investment bank in Nigeria.</p>
+
+    
+  </section>
+
+  <!-- Promoters Section -->
+  <section id="promoters" class="container"  style="margin-top: 130px; margin-bottom: 130px;">
+    <div>
+      <h1 class="container text-black text-center mt-5 fw-bold text-t ">The Promoters</h1>
+      <hr class="mx-auto" style="width: 100px; color: black;" />
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card custom-card">
+          <a href="https://www.linkedin.com/in/jubrilenakele/" target="_blank">
+            <img class="card-img-top" src="./images/images2/Mr Jubril.png" alt="Card image">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title text-t fw-bold text-center">Jubril Enakele</h4>
+            <p class="card-text text-justify text-f text-muted">Jubril has 25 years of African and European banking experience in Corporate Finance, Mergers, Acquisitions, Capital Markets and Commodity Derivates.</p>
+
+            <p class="card-text text-justify text-f text-muted">  An alumnus of Saïd Business School, London Business School, University College London and University of Calabar, Nigeria</p><br>
+            <a href="https://www.linkedin.com/in/jubrilenakele/" target="_blank" class="text-col">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card custom-card">
+          <a href="https://www.linkedin.com/in/adedeji-adekoya-b4a09419b/" target="_blank">
+            <img class="card-img-top" src="./images/images2/Adedeji.png" alt="Card image">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title text-t fw-bold text-center">Adedeji Adekoya</h4>
+            <p class="card-text text-justify text-f text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eligendi sed aperiam commodi minima tempora ipsum veritatis modi odit voluptates veniam, non mollitia consectetur ut.</p>
+
+             <p class="card-text text-justify text-f text-muted"> He attended University of Surrey and University of Ibadan, Nigeria.</p><br>
+            <a href="https://www.linkedin.com/in/adedeji-adekoya-b4a09419b/" target="_blank" class="text-col">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card custom-card">
+          <a href="https://www.linkedin.com/in/oshoke-enakele-msc-mba-b9074529/" target="_blank">
+            <img class="card-img-top" src="./images/images2/Francis.png" alt="Card image">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title text-t fw-bold text-center">Francis Enakele</h4>
+            <p class="card-text text-justify text-f text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eligendi sed aperiam commodi minima tempora ipsum veritatis modi odit voluptates veniam</p>
+            
+            <p class="card-text text-justify text-f text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, totam!</p><br>
+            <a href="https://www.linkedin.com/in/oshoke-enakele-msc-mba-b9074529/" target="_blank" class="text-col read-mor ">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Data Room Section -->
+  <!-- <section class="mt-5" id="Data-Room">
+    <h1 class="container text-black text-center fw-bold text-t">Due Diligence</h1>
+    <hr class="mx-auto" style="width: 100px; color: black;" />
+    <div class="container d-flex flex-wrap justify-content-around">
+      <div class="mb-4 text-col text-center">
+        <h1 class="text-col fs-3 ">Legal</h1>
+        <a href="https://www.templars-law.com/" target="_blank">
+          <img src="images/images2/logo/templars.png" alt="" height="50px" class="down">
+        </a>
+      </div>
+      <div class="mb-4 text-center">
+        <h1 class="fs-3 text-col">Tax and Transfer Pricing</h1>
+        <a href="https://ng.andersen.com/" target="_blank">
+          <img src="images/images2/logo/andersen.png" alt="" height="50px">
+        </a>
+      </div>
+    </div>
+  </section> -->
+
+ 
+
+  </section> 
+  <div class="mt-5 pt-5 pb-5 footer text-t  px-2 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-company py-3">
+        <a href="" class="move-up">
+          <img src="images/images2/logo/iron fund logo white.png" style="width: 210px;" class="top-0 pb-3 " alt="">
+        </a class="pr-5 text-white-50">
+          <!-- <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p> -->
+        <div class="move-up">
+          <!-- <h4 class="mt-lg-0 mt-sm-3 copyright">Contact Info</h4> -->
+          <div class="text-white-50 col-md-7 col-sm-6">	<p>Iron Capital Partners Limited,<br />
+            5C(1) Adekunle Lawal Street, <br>Ikoyi, Lagos</p> 
+          </div>
+          <p class="text-white-50 move-up"><i class="fa fa-phone mr-3"></i>+234 (0)704 000 6030 <br>+234 (0)1 454 0204</p>
+          
+          
+        </div>
+        </div>
+        <div class="col-lg-3 col-xs-12 links move-down ">
+          <h4 class="mt-lg-0 mt-sm-3 copyright">Useful Links</h4>
+            <ul class="m-0 p-0 ">
+              <li><a href="#about" class="text-dec text-white-50">About US</a></li>
+              <li><a href="#mission" class="text-dec text-white-50 ">Our Mission</a></li>
+              <li><a href="#promoters" class="text-dec text-white-50 ">The & Promoters</a></li>
+              <!-- <li><a href="#Data-Room" class="text-dec text-white-50 ">Due Diligence</a></li> -->
+              <li><a href="https://docsend.com/view/s/rbbbn9ehw6svvem6" class="text-dec text-white-50 ">Data Room</a></li>
+              <li><a href="https://ironcapital.africa/" class="text-dec text-white-50 ">About Iron Capital</a></li>
+            </ul>
+        </div>
+        <!-- <div class="col-lg-4 col-xs-12 copyright location py-5">
+          <h4 class="mt-lg-0 mt-sm-4 ">Useful Links</h4>
+          <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
+          <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
+          <p><i class="fa fa-envelope-o mr-3"></i>info@hsdf.com</p>
+        </div> -->
+      </div>
+      <div class="row mt-5">
+        <div class="col ">
+          <div>
+            <!-- Text -->
+            <p class="">
+              Copyright © 2024 <a href="#" class="copyright">Iron Fund</a></p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+  <script>
+    // Wait for window load
+    window.onload = function () {
+      // Fade out the preloader div
+      setTimeout(function () {
+        document.getElementById('preloader').style.opacity = '0';
+        document.getElementById('preloader').style.visibility = 'hidden';
+      }, 100); // Adjust the time delay as needed (milliseconds)
+    };
+
+    document.addEventListener("DOMContentLoaded", function() {
+    // Get all sections that have an ID defined
+    const sections = document.querySelectorAll("section[id]");
+
+    // Add an event listener listening for scroll
+    window.addEventListener("scroll", navHighlighter);
+
+    function navHighlighter() {
+      // Get current scroll position
+      let scrollY = window.pageYOffset;
+
+      // Now loop through sections to get height, top and ID values for each
+      sections.forEach(current => {
+        const sectionHeight = current.offsetHeight;
+        const sectionTop = current.offsetTop -  500;
+        const sectionId = current.getAttribute("id");
+
+        // If our current scroll position enters the space where current section on screen is
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+          document.querySelector(".navbar-nav a[href*=" + sectionId + "]").classList.add("active");
+        } else {
+          document.querySelector(".navbar-nav a[href*=" + sectionId + "]").classList.remove("active");
+        }
+      });
+    }
+  });
+  </script>
+  
+</body>
+</html>
